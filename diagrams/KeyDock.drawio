@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.13">
+  <diagram name="Page-1" id="rIzHehrSEJgapgD11MOs">
+    <mxGraphModel dx="1428" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-E8hHpCGHm1s_nnn1F1-1" target="V-E8hHpCGHm1s_nnn1F1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-13" value="Door open and key docked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V-E8hHpCGHm1s_nnn1F1-8">
+          <mxGeometry x="0.3" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-E8hHpCGHm1s_nnn1F1-1" target="V-E8hHpCGHm1s_nnn1F1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-14" value="Key docked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V-E8hHpCGHm1s_nnn1F1-9">
+          <mxGeometry x="-0.2889" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-1" value="Microcontroller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V-E8hHpCGHm1s_nnn1F1-2" target="V-E8hHpCGHm1s_nnn1F1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-11" value="Door open" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V-E8hHpCGHm1s_nnn1F1-7">
+          <mxGeometry x="0.06" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-2" value="Reed Switch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V-E8hHpCGHm1s_nnn1F1-4" target="V-E8hHpCGHm1s_nnn1F1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-12" value="Key docked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V-E8hHpCGHm1s_nnn1F1-10">
+          <mxGeometry x="-0.1556" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-4" value="Key Dock Sensor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-5" value="Buzzer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-6" value="Armed state LED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V-E8hHpCGHm1s_nnn1F1-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Logic Flow&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;li class=&quot;&quot; data-end=&quot;1283&quot; data-start=&quot;1193&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;1283&quot; data-start=&quot;1196&quot;&gt;You come home → you place your keys on the &lt;strong data-end=&quot;1250&quot; data-start=&quot;1239&quot;&gt;KeyDock&lt;/strong&gt; (metal contact / magnet sensor).&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;1283&quot; data-start=&quot;1193&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;1283&quot; data-start=&quot;1196&quot;&gt;System goes into &quot;armed&quot; mode (ready to remind you next time).&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;1410&quot; data-start=&quot;1350&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;1410&quot; data-start=&quot;1353&quot;&gt;You open the door → reed switch detects the door opening.&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;1492&quot; data-start=&quot;1411&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;1492&quot; data-start=&quot;1414&quot;&gt;If the &lt;strong data-end=&quot;1442&quot; data-start=&quot;1421&quot;&gt;key is not docked&lt;/strong&gt; at that moment → buzzer sounds for ~5–10 seconds.&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;1530&quot; data-start=&quot;1493&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;1530&quot; data-start=&quot;1496&quot;&gt;If the key &lt;em data-end=&quot;1511&quot; data-start=&quot;1507&quot;&gt;is&lt;/em&gt; docked → no sound.&lt;/p&gt;&lt;/li&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="650" width="420" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
